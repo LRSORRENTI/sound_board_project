@@ -4,7 +4,9 @@ const sounds = ['applause', 'boo', 'gasp',
 
 function stopSongs(){
     sounds.forEach(soundName =>{
-        const sound = document.getElementById(soundName).play()
+        const sound = document.getElementById(soundName)
+        sound.pause()
+        sound.currentTime = 0;
     })
 }
 

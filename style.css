@@ -5,6 +5,17 @@
 * {
   box-sizing: border-box;
 }
+h1 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
 body {
   color: #b1a189;
   background-color: #30414b;
